@@ -1,0 +1,5 @@
+rootProject.name = 'ffmpeg_test_app'
+
+include ':RNFFMpegModule', ':app'
+project(':RNFFMpegModule').projectDir = new File(rootProject.projectDir, '../node_modules/rn-ffmpeg/android')
+
